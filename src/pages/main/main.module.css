@@ -1,0 +1,275 @@
+.block {
+  position: relative;
+  width: 1320px;
+    height: 620px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  margin-top: 69px;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.button {
+  margin-top: 70px;
+  width: 335px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 60px;
+
+  background-color: #5970FF;
+  padding: 16px 0;
+  border-radius: 5px;
+
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.heading {
+  color: black;
+  font-family: 'Ferry', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  font-size: 60px;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  width: 534px;
+  height: 48px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.middle_banner {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+
+.cards_holder {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top: 107px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.head_orange {
+  background-color: var(--color-orange);
+}
+
+.head_blue {
+  background-color: var(--color-lazure);
+}
+
+.head_black {
+  background-color: var(--color-black);
+  color: white;
+}
+
+.card_head {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card_head_img {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  width: 90px;
+  display: block;
+  object-fit: contain;
+}
+
+.card_body {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mt_10 {
+  margin-bottom: 10px;
+}
+
+.span {
+  margin-left: 20px;
+
+  opacity: 0.5;
+  text-decoration: line-through;
+  font-size: 25px;
+}
+
+.mt_60 {
+  margin-bottom: 60px;
+}
+
+.ul {
+  margin-top: 10px;
+  margin-bottom: 55px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.li {
+  list-style: none;  
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.li:before {
+  content: "";
+  /* w20+h20 */
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../../img/check.png) 0 0 / contain no-repeat;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  align-self: flex-end;
+  padding: 3px 12px;
+  background-color: #3BA5E0;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+
+  visibility: hidden;
+}
+
+.card_button {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: var(--color-blue);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+
+  cursor: pointer;
+}
+
+.for_logined {
+  color: var(--color-black);
+  background-color: #D2D2D2;
+}
+
+
+.active {
+  border: 2px solid var(--color-orange);
+}
+
+.cards .card.active .badge {
+  visibility: visible;
+}
+
+
+.title_bold {
+  font-family: 'Ferry';
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.inter_30 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.inter_20 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.inter_18 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.inter_14 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.why_we {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: fit-content;
+  padding: 0 44px !important;
+  margin-block: 60px;
+}
+
+.swiper_slide {
+  height: 225px !important;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+  padding: 20px;
+}
+
+.swiper_slide p {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.swiper_slide img {
+  margin-bottom: 20px;
+}

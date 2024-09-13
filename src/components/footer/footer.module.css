@@ -1,0 +1,31 @@
+.footer {
+    /* height: 137px; */
+    background-color: #029491;
+    margin-top: 118px;
+    font-family: "Inter", sans-serif;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.photo {
+    display: block;
+    aspect-ratio: 141 / 57;
+    object-fit: contain;
+    width: 141px;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inner_text {
+    margin: 0;
+    text-align: right;
+}
